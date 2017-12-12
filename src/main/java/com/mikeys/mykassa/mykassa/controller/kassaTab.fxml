@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="755.0" prefWidth="730.0"
+	xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.mikeys.mykassa.mykassa.controller.KassaTabController">
+	<children>
+		<Pane prefHeight="755.0" prefWidth="730.0">
+			<TabPane fx:id="tabPane" layoutX="-2.0" layoutY="-2.0"
+				prefHeight="658.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+				<tabs>
+					<Tab fx:id="alcoholics" text="Alcoholics">
+						<fx:include fx:id="xxx_alcoholics_xxx" source="alcoholics.fxml" />
+						<!-- <content> <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="327.0" 
+							prefWidth="600.0" /> </content> -->
+					</Tab>
+					<Tab fx:id="nonAlcoholics" text="Non-Alcoholics">
+						<fx:include fx:id="xxx_nonAlcoholics_xxx" source="nonAlcoholics.fxml" />
+						<!-- <content> <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" 
+							prefWidth="200.0" /> </content> -->
+					</Tab>
+				</tabs>
+			</TabPane>
+		</Pane>
+	</children>
+</VBox>

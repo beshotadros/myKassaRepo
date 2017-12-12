@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="755.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mikeys.mykassa.mykassa.controller.OrderTabController">
+   <children>
+      <Pane prefHeight="755.0" prefWidth="730.0">
+         <children>
+            <ToggleButton fx:id="orderButton" layoutX="50.0" layoutY="34.0" mnemonicParsing="false" onAction="#orderButtonClicked" scaleX="1.5" scaleY="1.5" text="inOrder" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
